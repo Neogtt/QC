@@ -533,7 +533,7 @@ with tabs[2]:
                 .reset_index()
                 .rename(columns={mapping["product"]: "Ürün"})
             )
-            st.dataframe(group_product.sort_values("Scrap%", ascending=False), use_container_width=T
+            st.dataframe(group_product.sort_values("Scrap%", ascending=False), use_container_width=True)
         else:
             st.info("Filtre kriterlerine uyan veri bulunamadı.")
     else:
