@@ -648,9 +648,3 @@ with tabs[7]:
             file_name="kalite_raporu.xlsx",
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         )
-
-requirements.txt (referans) ======
-# streamlit==1.37.0
-# pandas>=2.0.0
-# openpyxl>=3.1.2
-# numpy>=1.25.0
